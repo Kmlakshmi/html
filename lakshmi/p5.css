@@ -1,0 +1,49 @@
+* {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#first {
+    opacity: 0;
+    transition: opacity 1s;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border: 1px solid black;
+    padding: 50px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    top: -80px;
+    left: 100px;
+}
+
+#second {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(13, 2, 44);
+    border: 1px solid rgb(3, 37, 11);
+    padding: 50px;
+    margin: 50px;
+    border-radius: 100px 60px 40px 60px;
+    position: relative;
+    z-index: 2;
+    top: 80px;
+    left: 20px;
+}
+
+#third {
+    height: 50px;
+    width: 50px;
+    background-color: #060d70;
+    border: 1px solid rgb(224, 9, 27);
+    padding: 100px;
+    margin: 50px;
+    border-radius: 10%;
+    position: relative;
+    z-index: 1;
+    top: 20;
+    left: 50px;
+}

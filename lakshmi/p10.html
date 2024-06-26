@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+
+
+<body>
+    <div class="card" style="width: 18rem;">
+        <img src="data:image/png;base64,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"
+            class="card-img-top" alt="...">
+        <div class="PU college">
+            <h5 class="PU college">PU college</h5>
+            <p class="card-text">Sapthagiri College TumkurÂ is bringing a fresh philosophy to PU education.<br> Sri Sapthagiri Pu College Tumkur believe that PU education is an important phase in the life of young generation and our role as educationists is to prepare them</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+    <div class="cards" style="width: 18rem;">
+        <img <h5 class=" college">Engineering college</h5>
+        <p class="cards-text">
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

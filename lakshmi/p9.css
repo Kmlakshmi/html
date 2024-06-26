@@ -1,0 +1,17 @@
+.animated-box {
+    width: 100px;
+    height: 100px;
+    background-color: #90e4b3;
+    border: 1px solid #4e07aa;
+    position: relative;
+    animation: moveBox 2s infinite;
+}
+
+@keyframes moveBox {
+    from {
+        transform: translateY(110vh);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
